@@ -41,6 +41,8 @@ else
   default['jenkins']['node']['agent_type'] = 'jnlp'
 end
 
+default['jeknis']['node']['jnlp_creds'] = nil
+
 default['jenkins']['node']['user'] = 'jenkins-node'
 default['jenkins']['node']['group'] = 'jenkins-node'
 default['jenkins']['node']['shell'] = '/bin/sh'
